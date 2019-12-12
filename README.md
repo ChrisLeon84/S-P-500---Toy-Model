@@ -7,7 +7,7 @@ Putting these numbers in and generated a simulation for a 10 year period. I then
 
 E[S<sub>t</sub>] = S<sub>0</sub> exp [&mu;t] 
 
-Var[S<sub>t</sub>] = S<sub>0</sub> exp [2&mu;t] (exp [&sigma;<sup>2</sup>t]-1 )
+Var[S<sub>t</sub>] = S<sub>0</sub><sup>2</sup> exp [2&mu;t] (exp [&sigma;<sup>2</sup>t]-1 )
 
 
 The curve was in the 'cone of uncertainty' sometimes, but the cone could be really wide. 
