@@ -1,6 +1,5 @@
 # S-P-500---Toy-Model
-Toy model, based on Geometric Brownian model
-See (https://en.wikipedia.org/wiki/Geometric_Brownian_motion) 
+Toy model, based on Geometric Brownian model (see https://en.wikipedia.org/wiki/Geometric_Brownian_motion). 
 
 Two important variables correspond to rate of return and voltaility. First, guessed them by qualitatively matching with S&P500. Interestingly, later I looked in the literautre and others got empirical numbers from end-of-week historic data and it matched quite closely to my crude method.
 
