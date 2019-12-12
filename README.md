@@ -5,7 +5,7 @@ Toy model, based on Geometric Brownian model (see [here](https://en.wikipedia.or
 
 where W<sub>t</sub> is a Wiener process (basically, a continuous random walk).
 
-Two important variables correspond basically to rate of return and voltaility (&mu; and &sigma;<sup>2</sup>). First, I guessed them by qualitatively matching with S&P500. Interestingly, later I looked in the literautre and others got empirical numbers from end-of-week historic data and it matched quite closely to my crude method.
+Two important variables correspond basically to rate of return and voltaility (&mu; and &sigma;<sup>2</sup>). First, I guessed them by qualitatively matching with S&P500. Interestingly, later I looked in the literautre and others got empirical numbers from end-of-week historic data and it matched quite closely to what I got.
 
 Putting these numbers in and generated a simulation for a 10 year period. I then tried to see if you can use parameter estimation from the first 5 years to predict the next 5 years. This was done using,
 
