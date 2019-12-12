@@ -1,7 +1,7 @@
 # S-P-500---Toy-Model
 Toy model, based on Geometric Brownian motion (see [here](https://en.wikipedia.org/wiki/Geometric_Brownian_motion) for more details). The value at some point in time, S<sub>t</sub>, is given by:
 
-#### S<sub>t</sub> = S<sub>0</sub> exp [ (&mu;-&sigma;<sup>2</sup>]/2)t + &sigma;W<sub>t</sub>]
+#### S<sub>t</sub> = S<sub>0</sub> exp [ (&mu;- &sigma;<sup>2</sup>/2)t + &sigma;W<sub>t</sub>]
 
 where W<sub>t</sub> is a Wiener process (basically, a continuous random walk). The two parameters here correspond basically to rate of return and voltaility (&mu; and &sigma;<sup>2</sup>). First, I guessed them by qualitatively matching with S&P500. Interestingly, later I looked in the literautre and others got empirical numbers from end-of-week historic data and it matched quite closely to what I got.
 
