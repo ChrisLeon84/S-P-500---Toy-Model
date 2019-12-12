@@ -5,7 +5,7 @@ Toy model, based on Geometric Brownian motion (see [here](https://en.wikipedia.o
 
 where W<sub>t</sub> is a Wiener process (basically, a continuous random walk). The two parameters here correspond basically to rate of return and voltaility (&mu; and &sigma;<sup>2</sup>). First, I guessed them by qualitatively matching with S&P500. Interestingly, later I looked in the literautre and others got empirical numbers from end-of-week historic data and it matched quite closely to what I got.
 
-Putting in these parameters I then generated a simulation for a 10 year period. I tried to see if you can use parameter estimation from the first 5 years to predict the next 5 years. This was done using,
+Putting in these parameters I then generated a simulation for a 10 year period. I tried to see if you can use parameter estimation from the first 5 years to predict the next 5 years. Later did the same thing with a 20 year period. This was done using,
 
 #### E[S<sub>t</sub>] = S<sub>0</sub> exp [&mu;t] 
 
