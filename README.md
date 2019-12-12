@@ -1,5 +1,5 @@
 # S-P-500---Toy-Model
-Toy model, based on Geometric Brownian model (see [here](https://en.wikipedia.org/wiki/Geometric_Brownian_motion) for more details). The stock value, S<sub>t</sub>, is given by:
+Toy model, based on Geometric Brownian motion (see [here](https://en.wikipedia.org/wiki/Geometric_Brownian_motion) for more details). The stock value, S<sub>t</sub>, is given by:
 
 #### S<sub>t</sub> = S<sub>0</sub> exp [ (mu;t-&sigma;<sup>2</sup>t]/2)t + &sigma;W<sub>t</sub>]
 
